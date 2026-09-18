@@ -2,13 +2,12 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta
-        name="description"
-        content="Sai Prabha C Y — Embedded Systems, Firmware, Avionics, Aerospace, Electronics and Communication Engineering Portfolio."
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
     >
 
     <meta
@@ -16,11 +15,84 @@
         content="Sai Prabha C Y"
     >
 
+    <meta
+        name="description"
+        content="Sai Prabha C Y — Electronics and Communication Engineering graduate focused on embedded systems, firmware, electronics, avionics and aerospace engineering."
+    >
+
+    <meta
+        name="keywords"
+        content="Sai Prabha C Y, Embedded Systems, Firmware, Electronics, Avionics, Aerospace, STM32, Telemetry, Flight Computers, GNC, ADCS"
+    >
+
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+
+    <!-- =====================================
+         OPEN GRAPH
+         Social preview image will be added
+         once the final preview asset is ready.
+    ====================================== -->
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <meta
+        property="og:title"
+        content="Sai Prabha C Y | Embedded Systems · Firmware · Avionics"
+    >
+
+    <meta
+        property="og:description"
+        content="Portfolio of Sai Prabha C Y — embedded systems, firmware, electronics, avionics and aerospace engineering."
+    >
+
+    <meta
+        property="og:url"
+        content="https://saiprabha-cy.github.io/"
+    >
+
+
+    <!-- =====================================
+         TWITTER / SOCIAL PREVIEW
+    ====================================== -->
+
+    <meta
+        name="twitter:card"
+        content="summary_large_image"
+    >
+
+    <meta
+        name="twitter:title"
+        content="Sai Prabha C Y | Embedded Systems · Firmware · Avionics"
+    >
+
+    <meta
+        name="twitter:description"
+        content="Embedded systems, firmware, electronics, avionics and aerospace engineering portfolio."
+    >
+
+
     <title>
         Sai Prabha C Y | Embedded Systems · Firmware · Avionics
     </title>
 
-    <link rel="stylesheet" href="style.css">
+
+    <!--
+        Favicon will be added once the final favicon
+        asset is prepared.
+    -->
+
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
 </head>
 
 
@@ -32,22 +104,36 @@
 
     <header class="site-header">
 
-        <nav class="navbar container">
+        <nav
+            class="navbar container"
+            aria-label="Main navigation"
+        >
 
-            <a href="#home" class="logo">
+            <a
+                href="#home"
+                class="logo"
+                aria-label="Sai Prabha C Y home"
+            >
                 Sai Prabha C Y
             </a>
+
 
             <button
                 class="nav-toggle"
                 id="navToggle"
-                aria-label="Toggle navigation"
+                aria-label="Open navigation menu"
                 aria-expanded="false"
+                aria-controls="navLinks"
+                type="button"
             >
                 ☰
             </button>
 
-            <div class="nav-links" id="navLinks">
+
+            <div
+                class="nav-links"
+                id="navLinks"
+            >
 
                 <a href="#projects">
                     Projects
@@ -55,6 +141,14 @@
 
                 <a href="#experience">
                     Experience
+                </a>
+
+                <a href="#education">
+                    Education
+                </a>
+
+                <a href="#leadership">
+                    Leadership
                 </a>
 
                 <a href="#stack">
@@ -102,6 +196,7 @@
         <section
             class="hero section"
             id="home"
+            aria-labelledby="hero-title"
         >
 
             <div class="container hero-content">
@@ -110,10 +205,12 @@
                     EMBEDDED SYSTEMS · FIRMWARE · AVIONICS · ELECTRONICS
                 </p>
 
-                <h1>
+
+                <h1 id="hero-title">
                     Building embedded and aerospace systems
                     from design through validation.
                 </h1>
+
 
                 <p class="hero-description">
                     Engineering across embedded systems, firmware,
@@ -123,6 +220,7 @@
                     development.
                 </p>
 
+
                 <div class="hero-actions">
 
                     <a
@@ -131,6 +229,7 @@
                     >
                         View Projects
                     </a>
+
 
                     <a
                         href="#contact"
@@ -153,6 +252,7 @@
         <section
             class="section"
             id="projects"
+            aria-labelledby="projects-title"
         >
 
             <div class="container">
@@ -163,7 +263,7 @@
                         SELECTED WORK
                     </p>
 
-                    <h2>
+                    <h2 id="projects-title">
                         Featured Projects
                     </h2>
 
@@ -366,6 +466,7 @@
         <section
             class="section section-alt"
             id="experience"
+            aria-labelledby="experience-title"
         >
 
             <div class="container">
@@ -376,7 +477,7 @@
                         EXPERIENCE
                     </p>
 
-                    <h2>
+                    <h2 id="experience-title">
                         Internships
                     </h2>
 
@@ -555,12 +656,284 @@
 
 
         <!-- =====================================
+             EDUCATION
+        ====================================== -->
+
+        <section
+            class="section"
+            id="education"
+            aria-labelledby="education-title"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        EDUCATION
+                    </p>
+
+                    <h2 id="education-title">
+                        Academic Background
+                    </h2>
+
+                    <p>
+                        Formal education in electronics and communication
+                        engineering, preceded by higher secondary and
+                        secondary education under the Tamil Nadu State Board.
+                    </p>
+
+                </div>
+
+
+                <div class="education-list">
+
+
+                    <!-- UNIVERSITY -->
+
+                    <article class="education-card">
+
+                        <div class="education-date">
+                            AUG 2021
+                            <br>
+                            —
+                            <br>
+                            MAY 2025
+                        </div>
+
+
+                        <div class="education-content">
+
+                            <p class="card-category">
+                                UNDERGRADUATE
+                            </p>
+
+                            <h3>
+                                SCSVMV University
+                            </h3>
+
+                            <p class="education-location">
+                                Kanchipuram, Tamil Nadu
+                            </p>
+
+                            <p>
+                                Bachelor of Electronics and
+                                Communication Engineering
+                            </p>
+
+                            <p class="education-result">
+                                CGPA:
+                                <strong>9.23 / 10</strong>
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- SCHOOL -->
+
+                    <article class="education-card">
+
+                        <div class="education-date">
+                            2019
+                            <br>
+                            —
+                            <br>
+                            2021
+                        </div>
+
+
+                        <div class="education-content">
+
+                            <p class="card-category">
+                                SCHOOL EDUCATION
+                            </p>
+
+                            <h3>
+                                SSKV Matriculation Higher Secondary School
+                            </h3>
+
+                            <p class="education-location">
+                                Kanchipuram, Tamil Nadu
+                            </p>
+
+
+                            <div class="education-results">
+
+                                <div>
+                                    <span>
+                                        Higher Secondary School Certificate
+                                    </span>
+
+                                    <strong>
+                                        83.89%
+                                    </strong>
+
+                                    <small>
+                                        Tamil Nadu State Board · 2021
+                                    </small>
+                                </div>
+
+
+                                <div>
+                                    <span>
+                                        Secondary School Leaving Certificate
+                                    </span>
+
+                                    <strong>
+                                        79.80%
+                                    </strong>
+
+                                    <small>
+                                        Tamil Nadu State Board · 2019
+                                    </small>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             STUDENT LEADERSHIP
+        ====================================== -->
+
+        <section
+            class="section section-alt"
+            id="leadership"
+            aria-labelledby="leadership-title"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        LEADERSHIP &amp; ACTIVITIES
+                    </p>
+
+                    <h2 id="leadership-title">
+                        Nexus Quest
+                    </h2>
+
+                    <p>
+                        Student-club leadership and event organisation
+                        during university.
+                    </p>
+
+                </div>
+
+
+                <div class="leadership-grid">
+
+
+                    <!-- CLUB -->
+
+                    <article class="leadership-card">
+
+                        <p class="card-category">
+                            STUDENT CLUB
+                        </p>
+
+                        <h3>
+                            Nexus Quest
+                        </h3>
+
+                        <p>
+                            Served as President of the Nexus Quest
+                            student club and contributed to organising
+                            university-level technical and engineering
+                            activities.
+                        </p>
+
+                    </article>
+
+
+                    <!-- ENGINEERS DAY -->
+
+                    <article class="leadership-card">
+
+                        <p class="card-category">
+                            EVENT ORGANISATION
+                        </p>
+
+                        <h3>
+                            57th Engineers' Day Celebration
+                        </h3>
+
+                        <p>
+                            President / organiser involvement in the
+                            57th Engineers' Day Celebration held on
+                            17 September 2024.
+                        </p>
+
+                        <a
+                            href="assets/documents/57th-Engineers-Day-Celebration-17.09.2024.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-link"
+                        >
+                            View event document →
+                        </a>
+
+                    </article>
+
+
+                    <!-- CLUB INAUGURATION -->
+
+                    <article class="leadership-card">
+
+                        <p class="card-category">
+                            EVENT ORGANISATION
+                        </p>
+
+                        <h3>
+                            Nexus Quest Student Club Inauguration
+                        </h3>
+
+                        <p>
+                            President / organiser involvement in the
+                            Nexus Quest student-club inauguration held
+                            on 25 July 2024.
+                        </p>
+
+                        <a
+                            href="assets/documents/Student-Club-Inauguration-Nexus-Quest-25thJuly-2024..pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-link"
+                        >
+                            View event document →
+                        </a>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
              ENGINEERING STACK
         ====================================== -->
 
         <section
             class="section"
             id="stack"
+            aria-labelledby="stack-title"
         >
 
             <div class="container">
@@ -571,7 +944,7 @@
                         ENGINEERING TOOLKIT
                     </p>
 
-                    <h2>
+                    <h2 id="stack-title">
                         Engineering Stack
                     </h2>
 
@@ -633,7 +1006,7 @@
                     <div class="stack-card">
 
                         <h3>
-                            Software
+                            Software &amp; Development
                         </h3>
 
                         <p>
@@ -658,6 +1031,7 @@
         <section
             class="section section-alt"
             id="research"
+            aria-labelledby="research-title"
         >
 
             <div class="container">
@@ -668,7 +1042,7 @@
                         RESEARCH
                     </p>
 
-                    <h2>
+                    <h2 id="research-title">
                         Research &amp; Publications
                     </h2>
 
@@ -772,6 +1146,7 @@
         <section
             class="section"
             id="writing"
+            aria-labelledby="writing-title"
         >
 
             <div class="container">
@@ -782,7 +1157,7 @@
                         TECHNICAL WRITING
                     </p>
 
-                    <h2>
+                    <h2 id="writing-title">
                         Technical Writing
                     </h2>
 
@@ -860,6 +1235,7 @@
         <section
             class="section section-alt"
             id="documentation"
+            aria-labelledby="documentation-title"
         >
 
             <div class="container">
@@ -870,7 +1246,7 @@
                         TECHNICAL DOCUMENTATION
                     </p>
 
-                    <h2>
+                    <h2 id="documentation-title">
                         Technical Documentation
                     </h2>
 
@@ -885,8 +1261,6 @@
 
                 <div class="card-grid">
 
-
-                    <!-- Documentation 01 -->
 
                     <article class="documentation-card">
 
@@ -916,8 +1290,6 @@
                     </article>
 
 
-                    <!-- Documentation 02 -->
-
                     <article class="documentation-card">
 
                         <p class="card-category">
@@ -945,8 +1317,6 @@
 
                     </article>
 
-
-                    <!-- Documentation 03 -->
 
                     <article class="documentation-card">
 
@@ -976,8 +1346,6 @@
                     </article>
 
 
-                    <!-- Documentation 04 -->
-
                     <article class="documentation-card">
 
                         <p class="card-category">
@@ -1004,8 +1372,6 @@
 
                     </article>
 
-
-                    <!-- Documentation 05 -->
 
                     <article class="documentation-card">
 
@@ -1056,6 +1422,7 @@
         <section
             class="section"
             id="certificates"
+            aria-labelledby="certificates-title"
         >
 
             <div class="container">
@@ -1066,7 +1433,7 @@
                         CREDENTIALS
                     </p>
 
-                    <h2>
+                    <h2 id="certificates-title">
                         Certificates &amp; Credentials
                     </h2>
 
@@ -1082,12 +1449,10 @@
                 <div class="certificate-grid">
 
 
-                    <!-- CERTIFICATE 01 -->
-
                     <article class="certificate-card">
 
                         <p class="card-category">
-                            ISRO / IIRS
+                            IIRS / ISRO
                         </p>
 
                         <h3>
@@ -1109,8 +1474,6 @@
 
                     </article>
 
-
-                    <!-- CERTIFICATE 02 -->
 
                     <article class="certificate-card">
 
@@ -1138,8 +1501,6 @@
                     </article>
 
 
-                    <!-- CERTIFICATE 03 -->
-
                     <article class="certificate-card">
 
                         <p class="card-category">
@@ -1166,12 +1527,10 @@
                     </article>
 
 
-                    <!-- CERTIFICATE 04 -->
-
                     <article class="certificate-card">
 
                         <p class="card-category">
-                            ISRO / IIRS
+                            IIRS / ISRO
                         </p>
 
                         <h3>
@@ -1193,8 +1552,6 @@
 
                     </article>
 
-
-                    <!-- CERTIFICATE 05 -->
 
                     <article class="certificate-card">
 
@@ -1221,8 +1578,6 @@
 
                     </article>
 
-
-                    <!-- CERTIFICATE 06 -->
 
                     <article class="certificate-card">
 
@@ -1251,8 +1606,6 @@
                     </article>
 
 
-                    <!-- CERTIFICATE 07 -->
-
                     <article class="certificate-card">
 
                         <p class="card-category">
@@ -1278,8 +1631,6 @@
 
                     </article>
 
-
-                    <!-- CERTIFICATE 08 -->
 
                     <article class="certificate-card">
 
@@ -1307,8 +1658,6 @@
                     </article>
 
 
-                    <!-- CERTIFICATE 09 -->
-
                     <article class="certificate-card certificate-image-card">
 
                         <p class="card-category">
@@ -1324,6 +1673,7 @@
                             <img
                                 src="assets/images/SPACE FOR ALL-2026.png"
                                 alt="Space for All 2026 credential"
+                                loading="lazy"
                             >
 
                         </div>
@@ -1348,12 +1698,49 @@
 
 
         <!-- =====================================
+             RESUME
+             PDF intentionally not linked yet.
+        ====================================== -->
+
+        <section
+            class="section section-alt resume-section"
+            id="resume"
+            aria-labelledby="resume-title"
+        >
+
+            <div class="container resume-content">
+
+                <p class="eyebrow">
+                    RESUME
+                </p>
+
+                <h2 id="resume-title">
+                    Resume
+                </h2>
+
+                <p>
+                    A consolidated overview of education, engineering
+                    experience, projects, technical skills and research.
+                </p>
+
+                <p class="section-note">
+                    Resume PDF will be added once the final portfolio
+                    resume is prepared.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
              ABOUT
         ====================================== -->
 
         <section
-            class="section section-alt"
+            class="section"
             id="about"
+            aria-labelledby="about-title"
         >
 
             <div class="container about-grid">
@@ -1365,7 +1752,7 @@
                         ABOUT
                     </p>
 
-                    <h2>
+                    <h2 id="about-title">
                         Engineering Focus
                     </h2>
 
@@ -1415,6 +1802,7 @@
         <section
             class="section contact-section"
             id="contact"
+            aria-labelledby="contact-title"
         >
 
             <div class="container contact-content">
@@ -1423,7 +1811,7 @@
                     CONTACT
                 </p>
 
-                <h2>
+                <h2 id="contact-title">
                     Let's connect.
                 </h2>
 

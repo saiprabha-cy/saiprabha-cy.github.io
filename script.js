@@ -20,7 +20,14 @@ if (navToggle && navLinks) {
 
             navToggle.setAttribute(
                 "aria-expanded",
+                String(isOpen)
+            );
+
+            navToggle.setAttribute(
+                "aria-label",
                 isOpen
+                    ? "Close navigation menu"
+                    : "Open navigation menu"
             );
 
         }
@@ -45,6 +52,11 @@ if (navToggle && navLinks) {
                     navToggle.setAttribute(
                         "aria-expanded",
                         "false"
+                    );
+
+                    navToggle.setAttribute(
+                        "aria-label",
+                        "Open navigation menu"
                     );
 
                 }
