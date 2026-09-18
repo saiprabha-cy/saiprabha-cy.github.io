@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+    <rect width="1200" height="630" fill="#0a0d12"></rect>
+
+    <g opacity="0.12">
+        <path d="M0 120H1200" stroke="#8fc7ff"></path>
+
+        <path d="M0 240H1200" stroke="#8fc7ff"></path>
+
+        <path d="M0 360H1200" stroke="#8fc7ff"></path>
+
+        <path d="M0 480H1200" stroke="#8fc7ff"></path>
+
+        <path d="M200 0V630" stroke="#8fc7ff"></path>
+
+        <path d="M400 0V630" stroke="#8fc7ff"></path>
+
+        <path d="M600 0V630" stroke="#8fc7ff"></path>
+
+        <path d="M800 0V630" stroke="#8fc7ff"></path>
+
+        <path d="M1000 0V630" stroke="#8fc7ff"></path>
+    </g>
+
+    <circle cx="970" cy="315" r="190" fill="none" stroke="#8fc7ff" stroke-width="1" opacity="0.15"></circle>
+
+    <circle cx="970" cy="315" r="115" fill="none" stroke="#8fc7ff" stroke-width="1" opacity="0.25"></circle>
+
+    <text x="90" y="170" fill="#8fc7ff" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="5">
+        EMBEDDED SYSTEMS · FIRMWARE · AVIONICS
+    </text>
+
+    <text x="90" y="270" fill="#edf2f7" font-family="Arial, sans-serif" font-size="66" font-weight="700">
+        Sai Prabha C Y
+    </text>
+
+    <text x="90" y="335" fill="#aeb8c4" font-family="Arial, sans-serif" font-size="29">
+        Electronics · Aerospace · Telemetry · Flight Computers
+    </text>
+
+    <text x="90" y="515" fill="#718090" font-family="Arial, sans-serif" font-size="20">
+        saiprabha-cy.github.io
+    </text>
+</svg>

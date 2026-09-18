@@ -1,22 +1,17 @@
-/* =========================================
-   MOBILE NAVIGATION
-========================================= */
+document.addEventListener("DOMContentLoaded", () => {
 
-const navToggle =
-    document.getElementById("navToggle");
+    const navToggle = document.getElementById("navToggle");
+    const primaryNav = document.getElementById("primaryNav");
 
-const navLinks =
-    document.getElementById("navLinks");
+    /*
+     * Mobile navigation
+     */
+    if (navToggle && primaryNav) {
 
-
-if (navToggle && navLinks) {
-
-    navToggle.addEventListener(
-        "click",
-        () => {
+        navToggle.addEventListener("click", () => {
 
             const isOpen =
-                navLinks.classList.toggle("active");
+                primaryNav.classList.toggle("open");
 
             navToggle.setAttribute(
                 "aria-expanded",
@@ -30,24 +25,19 @@ if (navToggle && navLinks) {
                     : "Open navigation menu"
             );
 
-        }
-    );
+        });
 
 
-    const links =
-        navLinks.querySelectorAll("a");
+        /*
+         * Close mobile menu after selecting a section
+         */
+        primaryNav
+            .querySelectorAll("a")
+            .forEach((link) => {
 
+                link.addEventListener("click", () => {
 
-    links.forEach(
-        (link) => {
-
-            link.addEventListener(
-                "click",
-                () => {
-
-                    navLinks.classList.remove(
-                        "active"
-                    );
+                    primaryNav.classList.remove("open");
 
                     navToggle.setAttribute(
                         "aria-expanded",
@@ -59,28 +49,75 @@ if (navToggle && navLinks) {
                         "Open navigation menu"
                     );
 
-                }
+                });
+
+            });
+
+
+        /*
+         * Close menu when Escape is pressed
+         */
+        document.addEventListener("keydown", (event) => {
+
+            if (
+                event.key === "Escape" &&
+                primaryNav.classList.contains("open")
+            ) {
+
+                primaryNav.classList.remove("open");
+
+                navToggle.setAttribute(
+                    "aria-expanded",
+                    "false"
+                );
+
+                navToggle.setAttribute(
+                    "aria-label",
+                    "Open navigation menu"
+                );
+
+                navToggle.focus();
+
+            }
+
+        });
+
+    }
+
+
+    /*
+     * Current year
+     */
+    const currentYear =
+        document.getElementById("currentYear");
+
+    if (currentYear) {
+        currentYear.textContent =
+            new Date().getFullYear();
+    }
+
+
+    /*
+     * External links:
+     * mark links that leave the portfolio.
+     *
+     * The visible arrow is already present where
+     * appropriate, so this only adds semantic metadata.
+     */
+    document
+        .querySelectorAll('a[target="_blank"]')
+        .forEach((link) => {
+
+            link.setAttribute(
+                "rel",
+                "noopener noreferrer"
             );
 
-        }
-    );
+            link.setAttribute(
+                "data-external",
+                "true"
+            );
 
-}
+        });
 
-
-/* =========================================
-   CURRENT YEAR
-========================================= */
-
-const currentYear =
-    document.getElementById(
-        "currentYear"
-    );
-
-
-if (currentYear) {
-
-    currentYear.textContent =
-        new Date().getFullYear();
-
-}
+});

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Sai Prabha C Y">
+    <rect width="64" height="64" rx="12" fill="#0a0d12"></rect>
+
+    <circle cx="32" cy="32" r="21" fill="none" stroke="#8fc7ff" stroke-width="2" opacity="0.7"></circle>
+
+    <path d="M18 32h28" stroke="#8fc7ff" stroke-width="2" opacity="0.35"></path>
+
+    <path d="M32 11v42" stroke="#8fc7ff" stroke-width="2" opacity="0.18"></path>
+
+    <text x="32" y="37" text-anchor="middle" fill="#edf2f7" font-family="Arial, sans-serif" font-size="18" font-weight="700">
+        SCY
+    </text>
+</svg>
