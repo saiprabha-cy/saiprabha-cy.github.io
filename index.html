@@ -7,10 +7,10 @@
 
     <meta
         name="description"
-        content="SaiPrabha C Y — Embedded Systems, Firmware, Avionics and Aerospace Engineering portfolio."
+        content="Sai Prabha C Y — Embedded Systems, Firmware, Avionics and Aerospace Engineering Portfolio."
     >
 
-    <title>SaiPrabha C Y | Embedded Systems & Aerospace</title>
+    <title>Sai Prabha C Y | Embedded Systems · Firmware · Avionics</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -22,17 +22,15 @@
     ========================== -->
 
     <header class="site-header">
+        <nav class="navbar container">
 
-        <nav class="navbar">
-
-            <a href="#home" class="brand">
-                <span class="brand-name">SaiPrabha C Y</span>
-                <span class="brand-role">Embedded Systems · Aerospace</span>
+            <a href="#home" class="logo">
+                SP
             </a>
 
             <button
-                class="menu-toggle"
-                id="menuToggle"
+                class="nav-toggle"
+                id="navToggle"
                 aria-label="Toggle navigation"
                 aria-expanded="false"
             >
@@ -40,18 +38,17 @@
             </button>
 
             <div class="nav-links" id="navLinks">
-
                 <a href="#projects">Projects</a>
-                <a href="#engineering">Engineering</a>
+                <a href="#experience">Experience</a>
+                <a href="#stack">Engineering</a>
                 <a href="#research">Research</a>
+                <a href="#writing">Writing</a>
                 <a href="#documentation">Documentation</a>
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
-
             </div>
 
         </nav>
-
     </header>
 
 
@@ -63,65 +60,32 @@
 
         <section class="hero section" id="home">
 
-            <div class="hero-content">
+            <div class="container hero-content">
 
                 <p class="eyebrow">
                     EMBEDDED SYSTEMS · FIRMWARE · AVIONICS
                 </p>
 
                 <h1>
-                    Engineering systems through
-                    <span>implementation, simulation and validation.</span>
+                    Engineering systems through implementation,
+                    simulation and validation.
                 </h1>
 
                 <p class="hero-description">
-                    Building software and engineering systems across embedded
-                    firmware, aerospace telemetry, flight computers,
-                    communication systems and spacecraft simulation.
+                    Building software and engineering systems across
+                    embedded firmware, aerospace telemetry, flight
+                    computers, communication systems and spacecraft
+                    simulation.
                 </p>
 
                 <div class="hero-actions">
-
-                    <a
-                        href="#projects"
-                        class="button button-primary"
-                    >
-                        View Engineering Work
+                    <a href="#projects" class="button primary">
+                        View Projects
                     </a>
 
-                    <a
-                        href="https://github.com/saiprabha-cy"
-                        class="button button-secondary"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        GitHub
+                    <a href="#contact" class="button secondary">
+                        Contact
                     </a>
-
-                </div>
-
-            </div>
-
-            <div class="hero-status">
-
-                <div class="status-line">
-                    <span class="status-dot"></span>
-                    <span>Engineering Portfolio</span>
-                </div>
-
-                <div class="status-item">
-                    <span>Focus</span>
-                    <strong>Embedded & Aerospace</strong>
-                </div>
-
-                <div class="status-item">
-                    <span>Projects</span>
-                    <strong>4 Featured</strong>
-                </div>
-
-                <div class="status-item">
-                    <span>Approach</span>
-                    <strong>Build · Simulate · Validate</strong>
                 </div>
 
             </div>
@@ -135,139 +99,104 @@
 
         <section class="section" id="projects">
 
-            <div class="section-heading">
+            <div class="container">
 
-                <p class="eyebrow">
-                    SELECTED ENGINEERING
-                </p>
+                <div class="section-heading">
+                    <p class="eyebrow">SELECTED WORK</p>
 
-                <h2>Featured Projects</h2>
+                    <h2>Featured Projects</h2>
 
-                <p>
-                    Engineering work spanning mission operations,
-                    telemetry, flight-computer systems and spacecraft
-                    attitude estimation.
-                </p>
-
-            </div>
+                    <p>
+                        Engineering projects spanning embedded software,
+                        aerospace systems, telemetry, communication and
+                        spacecraft simulation.
+                    </p>
+                </div>
 
 
-            <div class="project-grid">
+                <div class="card-grid">
 
+                    <!-- Project 1 -->
 
-                <!-- MOCP -->
+                    <article class="project-card">
 
-                <article class="project-card">
+                        <div class="card-number">
+                            01
+                        </div>
 
-                    <div class="project-number">
-                        01
-                    </div>
-
-                    <div class="project-content">
-
-                        <p class="project-category">
-                            MISSION OPERATIONS · COMMUNICATION
+                        <p class="card-category">
+                            AEROSPACE SOFTWARE
                         </p>
 
                         <h3>
-                            Mission Operations & Communication Platform
+                            Mission Operations &amp;
+                            Communication Platform
                         </h3>
 
                         <p>
-                            Software-defined spacecraft and ground-segment
-                            simulation covering telemetry, telecommand,
-                            orbit-driven communication, health monitoring
-                            and mission data archiving.
+                            Simulated spacecraft and ground-segment
+                            environment covering telemetry, command
+                            communication, orbit propagation, health
+                            monitoring and mission operations.
                         </p>
-
-                        <div class="tag-list">
-
-                            <span>Python</span>
-                            <span>UDP</span>
-                            <span>TCP</span>
-                            <span>SGP4</span>
-                            <span>SQLite</span>
-                            <span>Streamlit</span>
-
-                        </div>
 
                         <a
                             href="https://github.com/saiprabha-cy/Mission-Operations-Communication-Platform-MOCP"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="project-link"
+                            class="text-link"
                         >
-                            View Repository →
+                            View repository →
                         </a>
 
-                    </div>
-
-                </article>
+                    </article>
 
 
-                <!-- ATFIDP -->
+                    <!-- Project 2 -->
 
-                <article class="project-card">
+                    <article class="project-card">
 
-                    <div class="project-number">
-                        02
-                    </div>
+                        <div class="card-number">
+                            02
+                        </div>
 
-                    <div class="project-content">
-
-                        <p class="project-category">
-                            TELEMETRY · FLIGHT COMPUTER
+                        <p class="card-category">
+                            EMBEDDED / AVIONICS
                         </p>
 
                         <h3>
-                            Aerospace Telemetry, Flight Computer &
-                            Instrumentation Development Platform
+                            Aerospace Telemetry, Flight Computer
+                            &amp; Instrumentation Development Platform
                         </h3>
 
                         <p>
-                            Integrated aerospace development platform
-                            connecting flight-computer logic, telemetry,
-                            embedded firmware, simulation and engineering
-                            verification workflows.
+                            Development platform combining flight-computer
+                            logic, telemetry, embedded firmware,
+                            simulation and verification workflows.
                         </p>
-
-                        <div class="tag-list">
-
-                            <span>STM32</span>
-                            <span>C</span>
-                            <span>MATLAB</span>
-                            <span>Simulink</span>
-                            <span>Python</span>
-                            <span>OpenRocket</span>
-
-                        </div>
 
                         <a
                             href="https://github.com/saiprabha-cy/aerospace-telemetry-flight-computer-platform"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="project-link"
+                            class="text-link"
                         >
-                            View Repository →
+                            View repository →
                         </a>
 
-                    </div>
-
-                </article>
+                    </article>
 
 
-                <!-- ADCS -->
+                    <!-- Project 3 -->
 
-                <article class="project-card">
+                    <article class="project-card">
 
-                    <div class="project-number">
-                        03
-                    </div>
+                        <div class="card-number">
+                            03
+                        </div>
 
-                    <div class="project-content">
-
-                        <p class="project-category">
-                            GNC · ADCS · SIMULATION
+                        <p class="card-category">
+                            GNC / ADCS
                         </p>
 
                         <h3>
@@ -275,48 +204,33 @@
                         </h3>
 
                         <p>
-                            Spacecraft attitude-dynamics and control
-                            simulation focused on closed-loop attitude
-                            behaviour, spacecraft states and control
-                            system analysis.
+                            Simulation work focused on spacecraft attitude
+                            dynamics, control and attitude determination
+                            concepts for CubeSat-class missions.
                         </p>
-
-                        <div class="tag-list">
-
-                            <span>MATLAB</span>
-                            <span>Simulink</span>
-                            <span>GNC</span>
-                            <span>ADCS</span>
-                            <span>6-DOF</span>
-
-                        </div>
 
                         <a
                             href="https://github.com/saiprabha-cy/CubeSat-ADCS-Sim"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="project-link"
+                            class="text-link"
                         >
-                            View Repository →
+                            View repository →
                         </a>
 
-                    </div>
-
-                </article>
+                    </article>
 
 
-                <!-- KALMAN -->
+                    <!-- Project 4 -->
 
-                <article class="project-card">
+                    <article class="project-card">
 
-                    <div class="project-number">
-                        04
-                    </div>
+                        <div class="card-number">
+                            04
+                        </div>
 
-                    <div class="project-content">
-
-                        <p class="project-category">
-                            GNC · ATTITUDE ESTIMATION
+                        <p class="card-category">
+                            ESTIMATION / GNC
                         </p>
 
                         <h3>
@@ -324,33 +238,138 @@
                         </h3>
 
                         <p>
-                            Spacecraft attitude-estimation implementation
-                            focused on state estimation and the use of
-                            filtering techniques within an aerospace
-                            guidance, navigation and control workflow.
+                            Implementation and simulation work exploring
+                            Kalman-filter-based attitude estimation for
+                            aerospace and spacecraft applications.
                         </p>
-
-                        <div class="tag-list">
-
-                            <span>MATLAB</span>
-                            <span>Python</span>
-                            <span>Estimation</span>
-                            <span>GNC</span>
-
-                        </div>
 
                         <a
                             href="https://github.com/saiprabha-cy/kalman-attitude-estimation"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="project-link"
+                            class="text-link"
                         >
-                            View Repository →
+                            View repository →
                         </a>
 
-                    </div>
+                    </article>
 
-                </article>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EXPERIENCE / INTERNSHIPS
+        ========================== -->
+
+        <section class="section section-alt" id="experience">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        EXPERIENCE
+                    </p>
+
+                    <h2>
+                        Internships
+                    </h2>
+
+                    <p>
+                        Selected engineering internship experience in
+                        aerospace, defence technology and electronics.
+                    </p>
+
+                </div>
+
+
+                <div class="experience-list">
+
+                    <!-- BSERC -->
+
+                    <article class="experience-card">
+
+                        <div class="experience-date">
+                            19 DEC 2025<br>
+                            —<br>
+                            19 JAN 2026
+                        </div>
+
+                        <div class="experience-content">
+
+                            <p class="card-category">
+                                DEFENCE / AEROSPACE
+                            </p>
+
+                            <h3>
+                                BSERC — Def-Space Winter Internship
+                            </h3>
+
+                            <p class="experience-duration">
+                                19 December 2025 – 19 January 2026
+                            </p>
+
+                            <p>
+                                Completed three engineering projects during
+                                the Def-Space winter internship, covering
+                                aerospace and defence-oriented technical
+                                problem solving, modelling and simulation.
+                            </p>
+
+                            <p class="experience-note">
+                                Detailed project entries will be expanded
+                                in a later portfolio update.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- MacroEdTech -->
+
+                    <article class="experience-card">
+
+                        <div class="experience-date">
+                            02 MAR 2026<br>
+                            —<br>
+                            02 SEP 2026
+                        </div>
+
+                        <div class="experience-content">
+
+                            <p class="card-category">
+                                ELECTRONICS / AEROSPACE
+                            </p>
+
+                            <h3>
+                                MacroEdTech — Electronics Engineering Intern
+                            </h3>
+
+                            <p class="experience-duration">
+                                2 March 2026 – 2 September 2026
+                            </p>
+
+                            <p>
+                                Remote engineering internship involving
+                                electronics and aerospace-oriented technical
+                                work, documentation and project development.
+                            </p>
+
+                            <p class="experience-note">
+                                Only completed and publicly documentable work
+                                will be included in the final portfolio.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
 
             </div>
 
@@ -361,129 +380,86 @@
              ENGINEERING STACK
         ========================== -->
 
-        <section class="section section-alt" id="engineering">
+        <section class="section" id="stack">
 
-            <div class="section-heading">
+            <div class="container">
 
-                <p class="eyebrow">
-                    ENGINEERING STACK
-                </p>
+                <div class="section-heading">
 
-                <h2>Tools, Technologies & Systems</h2>
+                    <p class="eyebrow">
+                        ENGINEERING TOOLKIT
+                    </p>
 
-                <p>
-                    A practical engineering stack developed across
-                    embedded systems, aerospace software, simulation,
-                    communication and hardware-oriented workflows.
-                </p>
+                    <h2>
+                        Engineering Stack
+                    </h2>
 
-            </div>
-
-
-            <div class="engineering-grid">
-
-
-                <div class="engineering-group">
-
-                    <h3>Embedded & Firmware</h3>
-
-                    <div class="skill-list">
-
-                        <span>C</span>
-                        <span>STM32</span>
-                        <span>ARM Cortex-M</span>
-                        <span>FreeRTOS</span>
-                        <span>UART</span>
-                        <span>SPI</span>
-                        <span>I²C</span>
-                        <span>Interrupts</span>
-                        <span>DMA</span>
-                        <span>CMake</span>
-
-                    </div>
+                    <p>
+                        Current technical areas and tools represented
+                        across the project work.
+                    </p>
 
                 </div>
 
 
-                <div class="engineering-group">
+                <div class="stack-grid">
 
-                    <h3>Aerospace Systems</h3>
+                    <div class="stack-card">
 
-                    <div class="skill-list">
+                        <h3>
+                            Embedded &amp; Firmware
+                        </h3>
 
-                        <span>Flight Computers</span>
-                        <span>Telemetry</span>
-                        <span>Mission Operations</span>
-                        <span>GNC</span>
-                        <span>ADCS</span>
-                        <span>Satellite Communication</span>
-
-                    </div>
-
-                </div>
-
-
-                <div class="engineering-group">
-
-                    <h3>Simulation & Engineering Tools</h3>
-
-                    <div class="skill-list">
-
-                        <span>MATLAB</span>
-                        <span>Simulink</span>
-                        <span>GNU Octave</span>
-                        <span>KiCad</span>
-                        <span>LTspice</span>
-                        <span>QUCS-S</span>
-                        <span>LabVIEW</span>
-                        <span>OpenRocket</span>
-                        <span>OpenVSP</span>
-                        <span>XFLR5</span>
-                        <span>FreeCAD</span>
+                        <p>
+                            C · STM32 · ARM Cortex-M · FreeRTOS · UART ·
+                            SPI · I²C · Interrupts · DMA · CMake
+                        </p>
 
                     </div>
 
-                </div>
 
+                    <div class="stack-card">
 
-                <div class="engineering-group">
+                        <h3>
+                            Aerospace Systems
+                        </h3>
 
-                    <h3>Software & Development</h3>
-
-                    <div class="skill-list">
-
-                        <span>Python</span>
-                        <span>Git</span>
-                        <span>GitHub</span>
-                        <span>Linux</span>
-                        <span>WSL2</span>
-                        <span>pytest</span>
-                        <span>Bash</span>
+                        <p>
+                            Flight Computers · Telemetry · Mission
+                            Operations · GNC · ADCS · Satellite
+                            Communication
+                        </p>
 
                     </div>
 
-                </div>
 
-            </div>
+                    <div class="stack-card">
+
+                        <h3>
+                            Simulation &amp; Engineering
+                        </h3>
+
+                        <p>
+                            MATLAB · Simulink · GNU Octave · KiCad ·
+                            LTspice · QUCS-S · LabVIEW · OpenRocket ·
+                            OpenVSP · XFLR5 · FreeCAD
+                        </p>
+
+                    </div>
 
 
-            <div class="engineering-method">
+                    <div class="stack-card">
 
-                <p class="eyebrow">
-                    ENGINEERING METHOD
-                </p>
+                        <h3>
+                            Software
+                        </h3>
 
-                <div class="method-flow">
+                        <p>
+                            Python · Git · GitHub · Linux · WSL2 ·
+                            pytest · Bash
+                        </p>
 
-                    <span>Theory</span>
-                    <span>→</span>
-                    <span>Model / Simulation</span>
-                    <span>→</span>
-                    <span>Implementation</span>
-                    <span>→</span>
-                    <span>Validation</span>
-                    <span>→</span>
-                    <span>Application</span>
+                    </div>
 
                 </div>
 
@@ -496,36 +472,35 @@
              RESEARCH
         ========================== -->
 
-        <section class="section" id="research">
+        <section class="section section-alt" id="research">
 
-            <div class="section-heading">
+            <div class="container">
 
-                <p class="eyebrow">
-                    RESEARCH & PUBLICATIONS
-                </p>
+                <div class="section-heading">
 
-                <h2>Research Work</h2>
+                    <p class="eyebrow">
+                        RESEARCH
+                    </p>
 
-                <p>
-                    Research and technical work spanning digital twins,
-                    satellite propagation and machine-learning-assisted
-                    aerospace analysis.
-                </p>
+                    <h2>
+                        Research &amp; Publications
+                    </h2>
 
-            </div>
+                    <p>
+                        Selected research and technical work related to
+                        aerospace, communication systems and astronomical
+                        observation.
+                    </p>
+
+                </div>
 
 
-            <div class="research-list">
+                <div class="card-grid">
 
+                    <article class="research-card">
 
-                <article class="research-item">
-
-                    <span class="research-number">01</span>
-
-                    <div>
-
-                        <p class="research-type">
-                            DIGITAL TWIN · ASTRONOMY
+                        <p class="card-category">
+                            DIGITAL ASTRONOMY
                         </p>
 
                         <h3>
@@ -533,31 +508,27 @@
                         </h3>
 
                         <p>
-                            Research and software work involving a
-                            digital-twin approach to telescope systems.
+                            Research and development work involving
+                            astronomical observation, simulation and
+                            digital-twin concepts.
                         </p>
 
-                    </div>
+                        <a
+                            href="https://doi.org/10.5281/zenodo.18017921"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-link"
+                        >
+                            DOI →
+                        </a>
 
-                    <a
-                        href="https://doi.org/10.5281/zenodo.18017921"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        DOI →
-                    </a>
-
-                </article>
+                    </article>
 
 
-                <article class="research-item">
+                    <article class="research-card">
 
-                    <span class="research-number">02</span>
-
-                    <div>
-
-                        <p class="research-type">
-                            RF · MACHINE LEARNING
+                        <p class="card-category">
+                            RADIO PROPAGATION / ML
                         </p>
 
                         <h3>
@@ -565,31 +536,27 @@
                         </h3>
 
                         <p>
-                            Machine-learning-based analysis of S-band
-                            propagation and excess path loss.
+                            Machine-learning-based modelling of excess
+                            path loss for S-band terrestrial radio
+                            propagation.
                         </p>
 
-                    </div>
+                        <a
+                            href="https://doi.org/10.36227/techrxiv.176834562.26769030/v1"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-link"
+                        >
+                            DOI →
+                        </a>
 
-                    <a
-                        href="https://doi.org/10.36227/techrxiv.176834562.26769030/v1"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        DOI →
-                    </a>
-
-                </article>
+                    </article>
 
 
-                <article class="research-item">
+                    <article class="research-card">
 
-                    <span class="research-number">03</span>
-
-                    <div>
-
-                        <p class="research-type">
-                            SATELLITE COMMUNICATION · ML
+                        <p class="card-category">
+                            COMMUNICATION SYSTEMS
                         </p>
 
                         <h3>
@@ -597,18 +564,13 @@
                         </h3>
 
                         <p>
-                            Machine-learning analysis of propagation
-                            behaviour for low-Earth-orbit communication
-                            scenarios.
+                            Additional communication-system research
+                            placeholder for the next portfolio refinement.
                         </p>
 
-                    </div>
+                    </article>
 
-                    <span class="research-status">
-                        Research
-                    </span>
-
-                </article>
+                </div>
 
             </div>
 
@@ -616,127 +578,226 @@
 
 
         <!-- =========================
-             DOCUMENTATION
+             TECHNICAL WRITING
         ========================== -->
 
-        <section class="section section-alt" id="documentation">
+        <section class="section" id="writing">
 
-            <div class="section-heading">
+            <div class="container">
 
-                <p class="eyebrow">
-                    ENGINEERING EVIDENCE
-                </p>
+                <div class="section-heading">
 
-                <h2>Technical Documentation</h2>
+                    <p class="eyebrow">
+                        TECHNICAL WRITING
+                    </p>
 
-                <p>
-                    Architecture, protocols, simulations, validation
-                    results and engineering reports behind the projects.
+                    <h2>
+                        Engineering Notes
+                    </h2>
+
+                    <p>
+                        Technical writing focused on embedded systems,
+                        firmware, hardware interfaces and engineering
+                        concepts.
+                    </p>
+
+                </div>
+
+
+                <div class="writing-grid">
+
+                    <article class="writing-card">
+
+                        <p class="card-category">
+                            EMBEDDED SYSTEMS
+                        </p>
+
+                        <h3>
+                            What Actually Happens When You Call
+                            HAL_GPIO_WritePin()?
+                        </h3>
+
+                        <p>
+                            Reading the STM32 datasheet instead of trusting
+                            the abstraction — exploring what happens beneath
+                            a familiar HAL GPIO function.
+                        </p>
+
+                        <div class="writing-meta">
+                            <span>
+                                Medium
+                            </span>
+
+                            <span>
+                                Published
+                            </span>
+                        </div>
+
+                        <a
+                            href="https://medium.com/@saiprabhacy/what-actually-happens-when-you-call-hal-gpio-writepin-4eed172869de"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-link"
+                        >
+                            Read article →
+                        </a>
+
+                    </article>
+
+                </div>
+
+                <p class="section-note">
+                    More technical articles will be added as they are
+                    published.
                 </p>
 
             </div>
 
+        </section>
 
-            <div class="documentation-grid">
 
-                <a
-                    href="https://github.com/saiprabha-cy/Mission-Operations-Communication-Platform-MOCP"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="documentation-card"
-                >
+        <!-- =========================
+             TECHNICAL DOCUMENTATION
+        ========================== -->
 
-                    <span>01</span>
+        <section class="section section-alt" id="documentation">
 
-                    <h3>
-                        Mission Architecture
-                    </h3>
+            <div class="container">
 
-                    <p>
-                        System architecture, process structure,
-                        communication paths and mission-operation design.
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        DOCUMENTATION
                     </p>
 
-                    <strong>
-                        Open documentation →
-                    </strong>
-
-                </a>
-
-
-                <a
-                    href="https://github.com/saiprabha-cy/Mission-Operations-Communication-Platform-MOCP"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="documentation-card"
-                >
-
-                    <span>02</span>
-
-                    <h3>
-                        Telemetry & Packet Design
-                    </h3>
+                    <h2>
+                        Technical Documentation
+                    </h2>
 
                     <p>
-                        Packet structures, encoding decisions, CRC
-                        validation and telemetry communication.
+                        Selected engineering documentation and system-level
+                        technical material.
                     </p>
 
-                    <strong>
-                        Open repository →
-                    </strong>
-
-                </a>
+                </div>
 
 
-                <a
-                    href="https://github.com/saiprabha-cy/aerospace-telemetry-flight-computer-platform"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="documentation-card"
-                >
+                <div class="card-grid">
 
-                    <span>03</span>
+                    <article class="documentation-card">
 
-                    <h3>
-                        Flight Computer & Telemetry
-                    </h3>
+                        <p class="card-category">
+                            SYSTEM ARCHITECTURE
+                        </p>
 
-                    <p>
-                        Aerospace software, embedded firmware,
-                        instrumentation and telemetry implementation.
-                    </p>
+                        <h3>
+                            Mission Architecture
+                        </h3>
 
-                    <strong>
-                        Open repository →
-                    </strong>
+                        <p>
+                            System-level architecture and mission-operation
+                            concepts.
+                        </p>
 
-                </a>
+                        <a
+                            href="https://github.com/saiprabha-cy/Mission-Operations-Communication-Platform-MOCP"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-link"
+                        >
+                            View project →
+                        </a>
+
+                    </article>
 
 
-                <a
-                    href="https://github.com/saiprabha-cy/CubeSat-ADCS-Sim"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="documentation-card"
-                >
+                    <article class="documentation-card">
 
-                    <span>04</span>
+                        <p class="card-category">
+                            COMMUNICATION
+                        </p>
 
-                    <h3>
-                        ADCS Simulation
-                    </h3>
+                        <h3>
+                            Telemetry &amp; Packet Design
+                        </h3>
 
-                    <p>
-                        Spacecraft attitude dynamics, control,
-                        simulation and validation workflow.
-                    </p>
+                        <p>
+                            Telemetry and packet-level engineering concepts
+                            represented in the current project work.
+                        </p>
 
-                    <strong>
-                        Open repository →
-                    </strong>
+                        <a
+                            href="https://github.com/saiprabha-cy/Mission-Operations-Communication-Platform-MOCP"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-link"
+                        >
+                            View project →
+                        </a>
 
-                </a>
+                    </article>
+
+
+                    <article class="documentation-card">
+
+                        <p class="card-category">
+                            FLIGHT COMPUTER
+                        </p>
+
+                        <h3>
+                            Flight Computer &amp; Telemetry
+                        </h3>
+
+                        <p>
+                            Flight-computer and telemetry development
+                            concepts.
+                        </p>
+
+                        <a
+                            href="https://github.com/saiprabha-cy/aerospace-telemetry-flight-computer-platform"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-link"
+                        >
+                            View project →
+                        </a>
+
+                    </article>
+
+
+                    <article class="documentation-card">
+
+                        <p class="card-category">
+                            ADCS
+                        </p>
+
+                        <h3>
+                            ADCS Simulation
+                        </h3>
+
+                        <p>
+                            Spacecraft attitude-dynamics and ADCS
+                            simulation work.
+                        </p>
+
+                        <a
+                            href="https://github.com/saiprabha-cy/CubeSat-ADCS-Sim"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-link"
+                        >
+                            View project →
+                        </a>
+
+                    </article>
+
+                </div>
+
+                <p class="section-note">
+                    Documentation links will be replaced with specific
+                    reports and technical documents once the documentation
+                    set is prepared.
+                </p>
 
             </div>
 
@@ -749,7 +810,7 @@
 
         <section class="section" id="about">
 
-            <div class="about-grid">
+            <div class="container about-grid">
 
                 <div>
 
@@ -764,26 +825,29 @@
                 </div>
 
 
-                <div class="about-text">
+                <div class="about-content">
 
                     <p>
-                        My engineering work focuses on embedded systems,
-                        firmware, avionics and aerospace software, with
-                        emphasis on understanding the complete path from
-                        system requirements to implementation and
-                        verification.
+                        My current engineering focus is embedded systems,
+                        firmware, avionics and aerospace software.
                     </p>
 
                     <p>
-                        My projects combine software implementation with
-                        system modelling, communication protocols,
-                        spacecraft simulation, telemetry and engineering
+                        I work across the path from requirements and system
+                        modelling to implementation, communication
+                        interfaces, simulation and verification.
+                    </p>
+
+                    <p>
+                        My project work combines software implementation
+                        with system modelling, communication protocols,
+                        spacecraft simulation, telemetry and technical
                         documentation.
                     </p>
 
                     <p>
-                        The goal is not only to make a system run, but to
-                        understand its architecture, interfaces,
+                        The goal is to understand not only how a system
+                        works, but also its architecture, interfaces,
                         assumptions, failure modes and validation evidence.
                     </p>
 
@@ -800,7 +864,7 @@
 
         <section class="section contact-section" id="contact">
 
-            <div class="contact-content">
+            <div class="container contact-content">
 
                 <p class="eyebrow">
                     CONTACT
@@ -811,24 +875,36 @@
                 </h2>
 
                 <p>
-                    For engineering opportunities, technical collaboration
-                    or discussion around embedded and aerospace systems.
+                    For engineering opportunities, technical discussions
+                    and collaboration.
                 </p>
 
+
                 <div class="contact-links">
+
+                    <a
+                        href="mailto:saiprabhacy@gmail.com"
+                        class="contact-link"
+                    >
+                        Email
+                    </a>
+
 
                     <a
                         href="https://github.com/saiprabha-cy"
                         target="_blank"
                         rel="noopener noreferrer"
+                        class="contact-link"
                     >
                         GitHub
                     </a>
 
+
                     <a
-                        href="https://www.linkedin.com/"
+                        href="https://www.linkedin.com/in/saiprabha-c-y-32144b292"
                         target="_blank"
                         rel="noopener noreferrer"
+                        class="contact-link"
                     >
                         LinkedIn
                     </a>
@@ -848,13 +924,18 @@
 
     <footer class="site-footer">
 
-        <p>
-            © <span id="year"></span> SaiPrabha C Y
-        </p>
+        <div class="container footer-content">
 
-        <p>
-            Embedded Systems · Firmware · Avionics · Aerospace
-        </p>
+            <p>
+                © <span id="currentYear"></span>
+                Sai Prabha C Y
+            </p>
+
+            <p>
+                Embedded Systems · Firmware · Avionics
+            </p>
+
+        </div>
 
     </footer>
 

@@ -1,31 +1,37 @@
-/* =========================================================
+/* =========================================
    MOBILE NAVIGATION
-========================================================= */
+========================================= */
 
-const menuToggle = document.getElementById("menuToggle");
+const navToggle = document.getElementById("navToggle");
 const navLinks = document.getElementById("navLinks");
 
-if (menuToggle && navLinks) {
 
-    menuToggle.addEventListener("click", () => {
+if (navToggle && navLinks) {
 
-        const isOpen = navLinks.classList.toggle("open");
+    navToggle.addEventListener("click", () => {
 
-        menuToggle.setAttribute(
+        const isOpen =
+            navLinks.classList.toggle("active");
+
+        navToggle.setAttribute(
             "aria-expanded",
-            isOpen.toString()
+            isOpen
         );
 
     });
 
 
-    navLinks.querySelectorAll("a").forEach((link) => {
+    const links =
+        navLinks.querySelectorAll("a");
+
+
+    links.forEach((link) => {
 
         link.addEventListener("click", () => {
 
-            navLinks.classList.remove("open");
+            navLinks.classList.remove("active");
 
-            menuToggle.setAttribute(
+            navToggle.setAttribute(
                 "aria-expanded",
                 "false"
             );
@@ -37,15 +43,17 @@ if (menuToggle && navLinks) {
 }
 
 
-/* =========================================================
+/* =========================================
    CURRENT YEAR
-========================================================= */
+========================================= */
 
-const yearElement = document.getElementById("year");
+const currentYear =
+    document.getElementById("currentYear");
 
-if (yearElement) {
 
-    yearElement.textContent =
+if (currentYear) {
+
+    currentYear.textContent =
         new Date().getFullYear();
 
 }
