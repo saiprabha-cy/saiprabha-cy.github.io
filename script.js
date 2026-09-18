@@ -2,43 +2,56 @@
    MOBILE NAVIGATION
 ========================================= */
 
-const navToggle = document.getElementById("navToggle");
-const navLinks = document.getElementById("navLinks");
+const navToggle =
+    document.getElementById("navToggle");
+
+const navLinks =
+    document.getElementById("navLinks");
 
 
 if (navToggle && navLinks) {
 
-    navToggle.addEventListener("click", () => {
+    navToggle.addEventListener(
+        "click",
+        () => {
 
-        const isOpen =
-            navLinks.classList.toggle("active");
+            const isOpen =
+                navLinks.classList.toggle("active");
 
-        navToggle.setAttribute(
-            "aria-expanded",
-            isOpen
-        );
+            navToggle.setAttribute(
+                "aria-expanded",
+                isOpen
+            );
 
-    });
+        }
+    );
 
 
     const links =
         navLinks.querySelectorAll("a");
 
 
-    links.forEach((link) => {
+    links.forEach(
+        (link) => {
 
-        link.addEventListener("click", () => {
+            link.addEventListener(
+                "click",
+                () => {
 
-            navLinks.classList.remove("active");
+                    navLinks.classList.remove(
+                        "active"
+                    );
 
-            navToggle.setAttribute(
-                "aria-expanded",
-                "false"
+                    navToggle.setAttribute(
+                        "aria-expanded",
+                        "false"
+                    );
+
+                }
             );
 
-        });
-
-    });
+        }
+    );
 
 }
 
@@ -48,7 +61,9 @@ if (navToggle && navLinks) {
 ========================================= */
 
 const currentYear =
-    document.getElementById("currentYear");
+    document.getElementById(
+        "currentYear"
+    );
 
 
 if (currentYear) {
